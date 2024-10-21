@@ -1,0 +1,50 @@
+/* iki sayının farkı*/
+int a = 57;
+int b = 13;
+int sonuc = a - b;
+Console.WriteLine("İki Sayının Farkı:" + sonuc);
+
+/* 5 sayısının karesi*/
+int c = 5;
+int kare = c * c;
+Console.WriteLine("5 sayının karesi:" + kare);
+
+/* 10 sayısının 3'e bölümünden kalan*/
+double d = 10.0;
+double e = 3.0;
+double sonuc2 = d / e;
+Console.WriteLine("10'un 3'e bölümünden kalan:"+sonuc2);
+
+/* klavyeden girilen 4 sayısının toplamı ve çarpımı*/
+Console.WriteLine("\n~ ~ ~ 4 sayının toplamı ve çarpımı ~ ~ ~\n");
+Console.WriteLine("birinci sayıyı giriniz;");
+int s1 = Convert. ToInt32(Console. Readline());
+Console.WriteLine("ikinci sayıyı giriniz;");
+int s2 = Convert. ToInt32(Console. Readline())
+Console.WriteLine("Üçüncü sayıyı giriniz;");
+int s3 = Convert. ToInt32(Console. Readline())
+Console.WriteLine("Dördüncü sayıyı giriniz;");
+int s4 = Convert. ToInt32(Console. Readline())
+int sonuc3 = s1 + s2 + s3 + s4;
+int sonuc4 = s1 * s2 * s3 * s4;
+Console.WriteLine("girdiğinin sayıların toplamı:" + sonuc3);
+Console.WriteLine("gidiğiniz sayıların çarpımı:" + sonuc4);
+
+/* klavyeden girilen 2 sayının bölümü */ 
+Console.WriteLine("\n ~ ~ ~ 2 sayının bölümü ~ ~ ~\n! ! ! sayılarondalıklı şeklinde giriniz ! ! !\n");
+Console.WriteLine("bölüne sayıyı giriniz;");
+double bolunen = Convert.ToDouble(Console.ReadLine());
+Console.WriteLine("bölen sayıyı giriniziz;");
+double bolen = Convert.ToDouble(Console.ReadLine());
+double sonuc5 = bolunen / bolen;
+Console.WriteLine("iki sayının bölümü:" + sonuc5);
+
+/* klavyeden  girilen verilerin dikdörtgen prizmasının hacmini hesaplama*/
+Console.WriteLine("birinci kenarını giriniz;");
+int kenar1 = Convert.ToInt32(Console.ReadLine());
+Console.WriteLine("ikinci kenarı giriniz;");
+int kenar2 = Convert.ToInt32(Console.ReadLine);
+Console.WriteLine("üçüncğ kenarı giriniz;");
+int kenar3 = Convert.ToInt32(Console.ReadLine);
+int Sonuc6 = kenar1 * kenar2 * kenar3;
+Console.WriteLine("Dikdörtgenler prizmasının hacimi:" + Sonuc6);
